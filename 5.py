@@ -14,9 +14,9 @@ unit = input("What do you want to convert this to? (F/C) ").lower()
 
 if unit == "f":
     result = n * 1.8 + 32
-    print(str(result) + " F")
+    print(f"{result} F")
 elif unit == "c":
     result = (n - 32) * 5/9
-    print(str(result) + " C")
+    print(f"{result} C")
 else: 
     print("Invalid Input!")
