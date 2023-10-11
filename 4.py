@@ -13,6 +13,6 @@ while n is None:
 r = n % 2
 
 if r == 0:
-    print("The number " + str(n) + " is Even!")
+    print(f"The number {n} is Even!")
 else: 
-    print("The number " + str(n) + " is Odd!")
+    print(f"The number {n} is Odd!")
