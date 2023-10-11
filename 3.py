@@ -17,4 +17,4 @@ while True:
 unit = input("Enter the unit used for the measurements: ")
 
 ans = l * b
-print("The area of this rectangle is " + str(ans) + " " + unit + "²")
+print(f"The area of this rectangle is {ans} {unit}²")
